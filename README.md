@@ -99,7 +99,9 @@ Type:           type
 ## Contributors
 
 - Dileep Kishore
-
+- Corinna Pilcher
+- Nofal Ouardaoui
+- Aubrey Odom
 
 ## Credits
 
