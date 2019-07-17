@@ -102,6 +102,7 @@ Type:           type
 - Nofal Ouardaoui
 - Corinna Pilcher
 - Aubrey Odom
+- Corinna Pilcher
 
 ## Credits
 
