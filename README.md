@@ -99,7 +99,7 @@ Type:           type
 ## Contributors
 
 - Dileep Kishore
-- Eric Sinton
+- Blessing Ibe
 
 
 ## Credits
