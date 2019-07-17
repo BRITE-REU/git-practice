@@ -7,6 +7,7 @@
 """
 
 from typing import List
+from .utils import save, load, search
 import warnings
 warnings.filterwarnings("ignore", message="numpy.dtype size changed")
 warnings.filterwarnings("ignore", message="numpy.ufunc size changed")
@@ -70,5 +71,8 @@ def movie_recommender(
         recommender = KeywordSimilarity(metadata, credits, keywords)
     elif method == "UserSimilarity":
         recommender = UserSimilarity(metadata, ratings, links)
+    else:
+        raise ValueError()
     print("Returning recommendations")
+    save(recommender)
     return recommender(movie, nhits=nhits)
