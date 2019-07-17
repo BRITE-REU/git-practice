@@ -99,8 +99,14 @@ Type:           type
 ## Contributors
 
 - Dileep Kishore
-
+- Nofal Ouardaoui
+- Corinna Pilcher
+- Aubrey Odom
 
 ## Credits
 
 The code for this repository has been adapted from https://www.kaggle.com/rounakbanik/movie-recommender-systems
+
+## Collaborators
+
+
