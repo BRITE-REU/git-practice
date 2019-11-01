@@ -99,6 +99,8 @@ Type:           type
 ## Contributors
 
 - Dileep Kishore
+- Callen Bragdon
+- Conor Shea(It's all coming together)
 
 
 ## Credits

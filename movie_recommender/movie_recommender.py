@@ -16,7 +16,7 @@ import pandas as pd
 from .plot_similarity import PlotSimilarity
 from .keyword_similarity import KeywordSimilarity
 from .user_similarity import UserSimilarity
-
+from .utils import save,load,search
 
 def movie_recommender(
         metadata_file: str,
@@ -70,5 +70,8 @@ def movie_recommender(
         recommender = KeywordSimilarity(metadata, credits, keywords)
     elif method == "UserSimilarity":
         recommender = UserSimilarity(metadata, ratings, links)
+    else:
+        raise("Value Error; Unsupported method. use --help to learn more")
     print("Returning recommendations")
+    save(recommender(movie,nhits=nhits),"recommender_saved")
     return recommender(movie, nhits=nhits)
